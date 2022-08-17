@@ -1,0 +1,558 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0073)http://research.microsoft.com/~szummer/szummer-publications-abstract.aspx -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="MSHTML 6.00.6000.20815" name=GENERATOR>
+<title>Martin Szummer Publications: Bayesian CRF, Random Walks on Click Graph</title>
+    <style type="text/css">
+	li 
+        {
+          margin-left: 0;
+          margin-top: .4em;
+          margin-bottom: .4em;
+        }
+	</style>
+</HEAD>
+<BODY>
+<h3><a href="Szummer-citations.bib.txt">Citations in BibTeX format</a></h3>
+<H3 id=deepnetworks_DisplayTitle>Publications in learning deep networks</H3>
+<UL>
+  <LI>Marc'Aurelio Ranzato, Martin Szummer. <A 
+  href="papers/RanzatoSzummer-semisupervised-deep-icml08.pdf"><B>Semi-supervised 
+  Learning of Compact Document Representations with Deep Networks</B></A> July 
+  2008 <I>Proc. Intl. Conf. on Machine Learning (ICML) 2008</I> 792-799 
+  <BR>
+Finding good representations of text documents is crucial in information
+retrieval and classification systems. Today the most popular document
+representation is based on a vector of word counts in the document. This
+representation neither captures dependencies between related words, nor
+handles synonyms or polysemous words.
+In this paper, we propose an algorithm to learn text document representations
+based on semi-supervised autoencoders that are stacked to form a deep
+network.  The model can be trained efficiently on partially labeled corpora,
+producing very compact representations of documents, while retaining as
+much class information and joint word statistics as possible.  We show that
+it is advantageous to exploit even a few labeled samples during training.
+</LI></UL>
+<h3 id="dialog_DisplayTitle">Publications in spoken dialog systems</h1>
+<ul>
+<li> M. Szummer, M. Henderson, C. Breslin, M. Ga&#353i&#263, D. Kim, B. Thomson,
+  P. Tsiakoulis, S. Young. <a href="http://mi.eng.cam.ac.uk/~mh521/nipsdemo12/"><b>The BUDS POMDP Dialogue System</b></a> Advances in Neural Information Processing Systems (NIPS) Demo 2012.
+</li>
+<li>
+M. Ga&#353i&#263, C. Breslin, M. Henderson, D. Kim, M. Szummer, B. Thomson, P. Tsiakoulis,
+S. Young. <a href="http://mi.eng.cam.ac.uk/~mg436/papers/gp_adapt_revised.pdf"><b>POMDP-based dialogue manager adaptation to extended domains</b></a>
+SIGDIAL 2013 <b><span style="color: red">Best Paper Award</span></b>.
+</li>
+<li>
+M. Ga&#353i&#263, D. Kim, P. Tsiakoulis, C. Breslin, M. Henderson,
+M. Szummer, B. Thomson,
+S. Young. <a href="http://mi.eng.cam.ac.uk/~mg436/papers/gktb14.pdf"><b>Incremental
+    on-line adaptation of POMDP-based dialogue managers to extended
+    domains</b></a>, 2014, Interspeech.
+</li>
+<li>
+P. Tsiakoulis, C. Breslin, M. Ga&#353i&#263, M. Henderson D. Kim, M. Szummer, B. Thomson, S. Young.
+<a href="http://mi.eng.cam.ac.uk/~sjy/papers/tgbh14.pdf"><b>Dialogue Context Sensitive HMM-Based Speech Synthesis</b></a>
+ICASSP 2014
+</li>
+<li>
+M. Ga&#353i&#263, C. Breslin, M. Henderson, D. Kim, M. Szummer, B. Thomson, P. Tsiakoulis and
+S. Young. <a href="http://mi.eng.cam.ac.uk/~mg436/papers/gponline.pdf"><b>On-line policy optimisation of Bayesian spoken dialogue systems via human interaction</b></a>, ICASSP 2013
+</li>
+<li>
+S. Young, C. Breslin, M. Ga&#353i&#263, M. Henderson, D. Kim, M. Szummer, B. Thomson, P. Tsiakoulis and E. Tzirkel Hancock.
+ <b>Evaluation of Statistical POMDP-based Dialogue Systems in Noisy Environments.</b>
+ International Workshop Spoken Dialogue Systems (IWSDS) 2014
+</li>
+<li>
+C. Breslin, M. Ga&#353i&#263, M. Henderson, D. Kim, M. Szummer, B. Thomson,
+P. Tsiakoulis, K. Yu and S. Young. <a href="http://mi.eng.cam.ac.uk/~sjy/papers/bghk13.pdf"><b>Continuous ASR for Flexible Incremental Dialogue</b></a> Intl. Conf. Acoustics Speech and Signal Processing (ICASSP).
+</li>
+</ul>
+<H3 id=inforetrieval_DisplayTitle>Publications in information retrieval</H3>
+<UL>
+  <li>Martin Szummer, Emine Yilmaz
+<a href="http://research.microsoft.com/pubs/154323/SzummerYilmaz-semisupervised-ranking-cikm11.pdf"><b>Semi-supervised Learning to Rank with Preference Regularization</b></a> October 2011. <i>
+    Conf. Information and Knowledge Management
+    (CIKM)</i> <a href="http://research.microsoft.com/pubs/154323/SzummerYilmaz-semisupervised-ranking-poster.pdf">Poster</a> <br>
+We propose a semi-supervised learning to rank algorithm. It learns from both labeled data (pairwise preferences or absolute labels) and unlabeled data. The data can consist of multiple groups of items (such as queries), some of which may contain only unlabeled items. We introduce a preference regularizer favoring that similar items are similar in preference to each other. The regularizer captures manifold structure in the data, and we also propose a rank-sensitive version designed for top-heavy retrieval metrics including NDCG and mean average precision. 
+
+ The regularizer is employed in SSLambdaRank, a semi-supervised version of LambdaRank. This algorithm directly optimizes popular retrieval metrics and improves retrieval accuracy over LambdaRank, a state-of-the-art ranker that was used as part of the winner of the Yahoo! Learning to Rank challenge 2010. The algorithm runs in linear time in the number of queries, and can work with huge datasets.
+  </li>
+  <li>Chang Wang, Emine Yilmaz, Martin Szummer
+<a href="http://research.microsoft.com/pubs/154324/WangYSzummer-relevance-manifold-cikm11.pdf"><b>Relevance Feedback Exploiting Query-Specific Document Manifolds</b></a> October 2011. <i>
+    Conf. Information and Knowledge Management (CIKM)</i> <br>
+We incorporate relevance feedback into a learning to rank framework by exploiting query-specific document similarities. Given a few judged feedback documents and many retrieved but unjudged documents for a query, we learn a function that adjusts the initial ranking score of each document. Scores are fit so that documents with similar term content get similar scores, and scores of judged documents are close to their labels. By such smoothing along the manifold of retrieved documents, we avoid overfitting, and can therefore learn a detailed query-specific scoring function with several dozen term weights.
+  </li>
+  <li>Daniel Sheldon, Milad Shokouhi, Martin Szummer, Nick Craswell
+<a href="http://research.microsoft.com/pubs/145110/SheldonSSC-LambdaMerge-wsdm11.pdf"><b>LambdaMerge:
+    Merging the Results of Query Reformulations</b></a> February 2011. <i>
+    Web Search and Data Mining
+    (WSDM)</i> <a href="http://research.microsoft.com/pubs/145110/SheldonSSC-LambdaMerge-poster.pdf">Poster</a> <br>
+Search engines can automatically reformulate user queries in a variety of ways, often leading to multiple queries that are candidates to replace the original. However, selecting a replacement can be risky: a reformulation may be more effective than the original or significantly worse, depending on the nature of the query, the source of reformulation candidates, and the corpus.  In this paper, we explore methods to mitigate this risk by issuing several versions of the query (including the original) and merging their results. We focus on reformulations generated by random walks on the click graph, a method that can produce very good reformulations but is also variable and prone to topic drift.  Our primary contribution is LambdaMerge, a supervised merging method that is trained to directly optimize a retrieval metric (such as NDCG or MAP) using features that describe both the reformulations and the documents they return.  In experiments on Bing data and GOV2, LambdaMerge outperforms the original query and several unsupervised merging methods. LambdaMerge also outperforms a supervised method to predict and select the best single formulation, and is competitive with an oracle that <i>always</i> selects the best formulation.
+  </li>
+  <li>Lorenzo Torresani, Martin Szummer, Andrew Fitzgibbon. <a 
+  href="http://research.microsoft.com/pubs/136846/TorresaniSzummerFitzgibbon-classemes-eccv10.pdf"><b>Efficient
+  Object Category Recognition using Classemes</b></a> September
+  2010. <i>European Conference on Computer Vision (ECCV)</i>
+  <br>
+We introduce a new descriptor for images which allows the construction of efficient and compact classifiers with good accuracy on object category recognition.  The descriptor is the output of a large
+number of weakly trained object category classifiers on the image.  The
+trained categories are selected from an ontology of visual concepts,
+but the intention is not to encode an explicit decomposition of the scene.
+Rather, we accept that existing object category classifiers often encode
+not the category <i>per se</i> but ancillary image characteristics; and that these ancillary characteristics can combine to represent visual classes unrelated to the constituent categories' semantic meanings.
+<br>
+The advantage of this descriptor is that it allows object-category queries
+to be made against image databases using efficient classifiers (efficient
+at test time) such as linear support vector machines, and allows these
+queries to be for novel categories.  Even when the representation is
+reduced to 200 bytes per image, classification accuracy on object category
+recognition is comparable with the state of the art (36% versus 42%), but
+at orders of magnitude lower computational cost.
+<br><br>
+</li>
+  <li>Filip Radlinski, Martin Szummer, Nick Craswell. <a
+  href="http://research.microsoft.com/pubs/130615/RadlinskiSzummerCraswell-metrics-sigir10.pdf"><b>Metrics for Assessing Sets of Subtopics</b></a> July 2010. <i>SIGIR Conf Research and Development in Information Retrieval.</i>
+<br>
+To evaluate the diversity of search results, test collections have been
+developed that identify multiple <i>intents</i> for each query. Intents are
+the different meanings or facets that should be covered in a search results
+list. This means that topic development involves proposing a set of
+intents. We propose four measurable properties of query-to-intent mappings,
+allowing for more principled topic development for such test collections.
+<br><br>
+</li>
+  <li>Filip Radlinski, Martin Szummer, Nick Craswell. <a
+  href="http://research.microsoft.com/pubs/122720/RadlinskiSzummerCraswell-query-intent-www10.pdf"><b>Inferring
+  Query Intent from Reformulations and Clicks</b></a> April 2010. <i>World
+  Wide Web Conference (WWW).</i><br>
+Many researchers have noted that web search queries are often ambiguous or
+unclear. We present an approach for identifying the popular meanings of
+queries using web search logs and user click behavior. We show our approach
+to produce more complete and user-centric intents than expert judges by
+evaluating on TREC queries. This approach was also used by the TREC 2009 Web
+Track judges to obtain more representative topic descriptions from real
+queries.
+<br><br>
+</li>
+  <LI>Lorenzo Torresani, Martin Szummer, Andrew Fitzgibbon. <A 
+  href="http://research.microsoft.com/pubs/81353/TorresaniSzummerFitzgibbon-learning-query-cvpr09.pdf"><B>Learning
+  Query-dependent Prefilters for Scalable Image Retrieval</B></A> (<A href="http://research.microsoft.com/pubs/81353/TorresaniSzummerFitzgibbon-supplement-cvpr09.pdf">
+  supplement </A>) June 2009 <I>Proc Comp. Vision Pattern Recogn. (CVPR)</I>
+  <BR>
+We describe an algorithm for similar-image search which is designed to be
+efficient for extremely large collections of images.  For each query, a
+small response set is selected by a fast prefilter, after which
+a more accurate ranker may be applied to each image in the response set.
+We consider a class of prefilters comprising disjunctions of conjunctions
+("ORs of ANDs") of Boolean features. AND filters can be implemented
+efficiently using skipped inverted files, a key component of
+web-scale text search engines.  These structures permit search in time
+proportional to the response set size.  The prefilters are learned from
+training examples, and refined at query time to produce an approximately
+bounded response set.
+<br>
+We cast prefiltering as an optimization problem: for each test query,
+select the OR-of-AND filter which maximizes training-set recall for an
+adjustable bound on response set size.  This may be efficiently implemented
+by selecting from a large pool of candidate conjunctions of Boolean
+features using a linear program relaxation.  Tests on object class
+recognition show that this relatively simple filter
+is nevertheless powerful enough to capture some
+semantic information.
+  <BR><BR>
+
+  <LI>Martin Szummer, Nick Craswell. <A 
+  href="papers/SzummerCraswell-behavioral-classification-www08.pdf"><B>Behavioral 
+  Classification on the Click Graph</B></A> April 2008 <I>World Wide Web 
+  Conference</I> 1241-1242 <BR>A bipartite query-URL graph, where an edge 
+  indicates that a document was clicked for a query, is a useful construct for 
+  finding groups of related queries and URLs. Here we use this behavior graph 
+  for classification. We choose a click graph sampled from two weeks of image 
+  search activity, and the task of ``adult'' filtering: identifying content in 
+  the graph that is inappropriate for minors. We show how to perform 
+  classification using random walks on this graph, and two methods for 
+  estimating classifier parameters.<BR><BR>
+  <LI>Onno Zoeter, Michael Taylor, Ed Snelson, John Guiver, Nick Craswell, 
+  Martin Szummer. <A 
+  href="http://research.microsoft.com/pubs/53570/decisiontheoryCameraReady.pdf"><B>A 
+  Decision Theoretic Framework for Ranking using Implicit Feedback</B></A> July 
+  2008 <I>SIGIR 2008 Workshop on Learning to Rank for Information Retrieval</I> 
+  <BR>This paper presents a decision theoretic ranking system that incorporates 
+  both explicit and implicit feedback. The system has a model that predicts, 
+  given all available data at query time, different interactions a person might 
+  have with search results. Possible interactions include relevance labelling 
+  and clicking. We define a utility function that takes as input the outputs of 
+  the interaction model to provide a real valued score to the user's session. 
+  The optimal ranking is the list of documents that, in expectation under the 
+  model, maximizes the utility for a user session. The system presented is based 
+  on a simple example utility function that combines both click behavior and 
+  labelling. The click prediction model is a Bayesian generalized linear model. 
+  Its notable characteristic is that it incorporates both weights for 
+  explanatory features and weights for each query-document pair. This allows the 
+  model to generalize to unseen queries but makes it at the same time flexible 
+  enough to keep in a `memory' where the model should deviate from its feature 
+  based prediction. Such a click-predicting model could be particularly useful 
+  in an application such as enterprise search, allowing on-site adaptation to 
+  local documents and user behaviour. The example utility function has a 
+  parameter that controls the tradeoff between optimizing for clicks and 
+  optimizing for labels. Experimental results in the context of enterprise 
+  search show that a balance in the tradeoff leads to the best NDCG and good 
+  (predicted) clickthrough.<BR><BR>
+  <LI>Nick Craswell, Martin Szummer. <A 
+  href="papers/CraswellSzummer-random-walks-sigir07.pdf"><B>Random 
+  Walks on the Click Graph</B></A> July 2007 <I>SIGIR Conf Research and 
+  Development in Information Retrieval</I> 239-246 <BR>Search engines can 
+  record which documents were clicked for which query, and use these 
+  query-document pairs as 'soft' relevance judgments. However, compared to the 
+  true judgments, click logs give noisy and sparse relevance information. We 
+  apply a Markov random walk model to a large click log, producing a 
+  probabilistic ranking of documents for a given query. A key advantage of the 
+  model is its ability to retrieve relevant documents that have not yet been 
+  clicked for that query and rank those effectively. We conduct experiments on 
+  click logs from image search, comparing our ('backward') random walk model to 
+  a different ('forward') random walk, varying parameters such as walk length 
+  and self-transition probability. The most effective combination is a long 
+  backward walk with high self-transition probability.<BR><BR></LI></UL>
+<H3 id=adaptation_DisplayTitle>Publications on Handwriting Adaptation 
+(Personalization)</H3>
+<UL>
+  <LI>Martin Szummer, Christopher M. Bishop. <A 
+  href="papers/SzummerBishop-IWFHR06.pdf"><B>Discriminative 
+  Writer Adaptation</B></A> October 2006 <I>10th Intl. Workshop on Frontiers in 
+  Handwriting Recognition (IWFHR)</I> 293-298 <BR>We propose a general method 
+  for adapting a writer-independent classifier to an individual writer. We 
+  employ a mixture of experts formulation, where the classifiers are trained on 
+  weighted clusters of writers. The clusters are determined by which experts 
+  classify individual writing correctly. The method adapts by choosing the 
+  appropriate combination of classifiers for a new user. It applies to any 
+  probabilistic discriminative classifier, and adapts discriminatively without 
+  modeling the input feature distribution. We apply the method to online 
+  character recognition. Specifically, we use a mixture of neural networks as 
+  well as a mixture of logistic regressions. We train the mixture via conjugate 
+  gradient ascent or via the EM algorithm on 192,000 Latin characters of 98 
+  classes and 216 writers, and show adaptation results for 21 
+  writers.<BR><BR></LI></UL>
+<H3 id=CRFink_DisplayTitle>Publications on Conditional Random Fields, applied to 
+hand-drawing analysis</H3>
+<UL>
+  <li>Martin Szummer, Pushmeet Kohli, Derek Hoiem.
+<b>Learning Random Fields using Graph Cuts</b>. October 2010. <i>Book chapter in book on MRFs, MIT press, edited by Andrew Blake, Carsten Rother, Pushmeet Kohli.</i>
+</li>
+  <LI>Martin Szummer, Pushmeet Kohli, Derek Hoiem. <A 
+  href="papers/SzummerKohliHoiem-learning-crf-cuts-eccv08.pdf"><B>Learning 
+  CRFs using Graph Cuts</B></A> October 2008 <I>European Conference on Computer 
+  Vision</I> <BR>Many computer vision problems are naturally formulated as 
+  random fields, specifically MRFs or CRFs. The introduction of graph cuts has 
+  enabled efficient and optimal inference in associative random fields, greatly 
+  advancing applications such as segmentation, stereo reconstruction and many 
+  others. However, while fast inference is now widespread, parameter learning in 
+  random fields has remained an intractable problem. This paper shows how to 
+  apply fast inference algorithms, in particular graph cuts, to learn parameters 
+  of random fields with similar efficiency. We find optimal parameter values 
+  under standard regularized objective functions that ensure good 
+  generalization. Our algorithm enables learning of many parameters in 
+  reasonable time, and we explore further speedup techniques. We also discuss 
+  extensions to non-associative and multi-class problems. We evaluate the method 
+  on image segmentation and geometry recognition.<BR><BR>
+  <LI>Carsten Rother, Vladimir Kolmogorov, Victor Lempitsky, Martin Szummer. <A 
+  href="papers/Rother-etal-QPBO-cvpr07.pdf"><B>Optimizing 
+  Binary MRFs via Extended Roof Duality</B></A> June 2007 <I>Proc Comp. Vision 
+  Pattern Recogn. (CVPR)</I> <BR>Many computer vision applications rely on the 
+  efficient optimization of challenging, so-called non-submodular, binary 
+  pairwise MRFs. A promising graph cut based approach for optimizing such MRFs 
+  known as "roof duality" was recently introduced into computer vision. We study 
+  two methods which extend this approach. First, we discuss an efficient 
+  implementation of the "probing" technique introduced recently by Boros et al. 
+  2006. It simplifies the MRF while preserving the global optimum. Our code is 
+  400-700 faster on some graphs than the implementation of [Boros 2006]. Second, 
+  we present a new technique which takes an arbitrary input labeling and tries 
+  to improve its energy. We give theoretical characterizations of local minima 
+  of this procedure. We applied both techniques to many applications, including 
+  image segmentation, new view synthesis, super-resolution, diagram recognition, 
+  parameter learning, texture restoration, and image deconvolution. For several 
+  applications we see that we are able to find the global minimum very 
+  efficiently, and considerably outperform the original roof duality approach. 
+  In comparison to existing techniques, such as graph cut, TRW, BP, ICM, and 
+  simulated annealing, we nearly always find a lower energy.<BR><BR>
+  <LI>Philip J. Cowans, Martin Szummer. <A 
+  href="papers/CowansSzummer-aistats05.pdf"><B>A 
+  Graphical Model for Simultaneous Partitioning and Labeling</B></A> January 
+  2005 <I>AI &amp; Statistics</I> <BR>In this work we develop a graphical model 
+  for describing probability distributions over labeled partitions of an 
+  undirected graph which are conditioned on observed data. We show how to 
+  efficiently perform exact inference in these models, by exploiting the 
+  structure of the graph and adapting the sum-product and max-product 
+  algorithms. We demonstrate our approach on the task of segmenting and labeling 
+  hand-drawn ink fragments, and show that a significant performance increase is 
+  obtained by labeling and partitioning simultaneously.<br>
+ <b>Best Student Paper Award</b>
+<BR><BR>
+  <LI>Yuan Qi, Martin Szummer, Thomas P. Minka. <A 
+  href="papers/QiSzummerMinka-aistats05.pdf"><B>Bayesian 
+  Conditional Random Fields</B></A> January 2005 <I>AI &amp; Statistics</I> 
+  269-276 <BR>We propose Bayesian Conditional Random Fields (BCRFs) for 
+  classifying interdependent and structured data, such as sequences, images or 
+  webs. BCRFs are a Bayesian approach to training and inference with conditional 
+  random fields, which were previously trained by maximizing likelihood (ML) 
+  (Lafferty et al., 2001). Our framework avoids the problem of overfitting, and 
+  offers the full advantages of a Bayesian treatment. Unlike the ML approach, we 
+  estimate the posterior distribution of the model parameters during training, 
+  and average predictions over this posterior during inference. We apply two 
+  extensions of expectation propagation (EP), the power EP and the novel 
+  transformed EP methods, to incorporate the partition function. For algorithmic 
+  stability and accuracy, we flatten the approximation structures to avoid 
+  two-level approximations. We demonstrate the superior prediction accuracy of 
+  BCRFs over conditional random fields trained with ML or MAP on synthetic and 
+  real datasets<BR><BR>
+  <LI>Yuan Qi, Martin Szummer, Thomas P. Minka. <A 
+  href="papers/QiSzummerMinka-cvpr05.pdf"><B>Diagram 
+  Structure Recognition by Bayesian Conditional Random Fields</B></A> June 2005 
+  <I>Proc Comp. Vision Pattern Recogn. (CVPR)</I> C. Schmid and S. Soatto and C. 
+  Tomasi 191-196 <BR>Hand-drawn diagrams present a complex recognition problem. 
+  Elements of the diagram are often individually ambiguous, and require context 
+  to be interpreted. We present a recognition method based on Bayesian 
+  conditional random fields (BCRFs) that jointly analyzes all drawing elements 
+  in order to incorporate contextual cues. The classification of each object 
+  affects the classification of its neighbors. BCRFs allow flexible and 
+  correlated features, and take both spatial and temporal information into 
+  account. BCRFs estimate the posterior distribution of parameters during 
+  training, and average predictions over the posterior for testing. As a result 
+  of model averaging, BCRFs avoid the overfitting problems associated with 
+  maximum likelihood training. We also incorporate Automatic Relevance 
+  Determination (ARD), a Bayesian feature selection technique, into BCRFs. The 
+  result is significantly lower error rates compared to ML- and MAP-trained 
+  CRFs.<BR><BR>
+  <LI>Martin Szummer. <A 
+  href="papers/Szummer-icdar05.pdf"><B>Learning 
+  Diagram Parts with Hidden Random Fields</B></A> August 2005 <I>Intl Conf 
+  Document Analysis and Recognition (ICDAR)</I> 1188-1193 <BR>Many diagrams 
+  contain compound objects composed of parts. We propose a recognition framework 
+  that learns parts in an unsupervised way, and requires training labels only 
+  for compound objects. Thus, human labeling effort is reduced and parts are not 
+  predetermined, instead appropriate parts are discovered based on the data. We 
+  model contextual relations between parts, such that the label of a part can 
+  depend simultaneously on the labels of its neighbors, as well as spatial and 
+  temporal information. The model is a Hidden Random Field (HRF), an extension 
+  of a Conditional Random Field. We apply it to find parts of boxes, arrows and 
+  flowchart shapes in hand-drawn diagrams, and also demonstrate improved 
+  recognition accuracy over the conditional random field model without 
+  parts.<BR><BR>
+  <LI>Martin Szummer, Yuan Qi. <A 
+  href="papers/Szummer-Qi-iwfhr04.pdf"><B>Contextual 
+  Recognition of Hand-drawn Diagrams with Conditional Random Fields</B></A> 
+  October 2004 <I>9th Intl. Workshop on Frontiers in Handwriting Recognition 
+  (IWFHR)</I> F. Kimura and H. Fujisawa 32-37 <BR>Hand-drawn diagrams present a 
+  complex recognition problem. Fragments of the drawing are often individually 
+  ambiguous, and require context to be interpreted. We present a recognizer 
+  based on conditional random fields (CRFs) that jointly analyze all drawing 
+  fragments in order to incorporate contextual cues. The classification of each 
+  fragment influences the classification of its neighbors. CRFs allow flexible 
+  and correlated features, and take temporal information into account. Training 
+  is done via conditional MAP estimation that is guaranteed to reach the global 
+  optimum. During recognition we propagate information globally to find the 
+  joint MAP or maximum marginal solution for each fragment. We demonstrate the 
+  framework on a container versus connector recognition task.<BR><BR>
+  <LI>Martin Szummer, Philip J. Cowans. <A 
+  href="papers/SzummerCowans-aaai04.pdf"><B>Incorporating 
+  Context and User Feedback in Pen-Based Interfaces</B></A> October 2004 <I>AAAI 
+  Fall symposium, Making Pen-Based Interaction Intelligent and Natural</I> R. 
+  Davis and J. Landay et al. 159-166 FS-04-06 <BR>We propose a joint 
+  probabilistic model for grouping and labeling hand-drawn ink strokes. We 
+  demonstrate that simultaneous grouping and labeling yields superior accuracy 
+  to labeling alone. Our probabilistic formulation has many advantages, exact 
+  inference is feasible, and we obtain confidence estimates. We show how to 
+  incorporate user feedback by conditioning our model, and discuss different 
+  types of inference tasks suited for various user interactions.<BR><BR>
+  <LI>Balaji Krishnapuram, Christopher M. Bishop, Martin Szummer. <A 
+  href="papers/KrishnapuramBishopSzummer-iwfhr04.pdf"><B>Generative 
+  Models and Bayesian Model Comparison for Shape Recognition</B></A> October 
+  2004 <I>9th Intl. Workshop on Frontiers in Handwriting Recognition (IWFHR)</I> 
+  F. Kimura and H. Fujisawa 20-25 <BR>Recognition of hand-drawn shapes is an 
+  important and widely studied problem. By adopting a generative probabilistic 
+  framework we are able to formulate a robust and flexible approach to shape 
+  recognition which allows for a wide range of shapes and which can recognize 
+  new shapes from a single exemplar. It also provides meaningful probabilistic 
+  measures of model score which can be used as part of a larger probabilistic 
+  framework for interpreting a page of ink. We also show how Bayesian model 
+  comparison allows the trade-off between data fit and model complexity to be 
+  optimized automatically.<BR><BR></LI></UL>
+<H3 id=semisupervised_DisplayTitle>Learning from partially labeled data 
+(semi-supervised learning)</H3>
+<UL>
+  <LI>Martin Szummer, Tommi Jaakkola. <A 
+  href="papers/SzummerJaakkola-nips02.pdf"><B>Information 
+  Regularization with Partially Labeled Data</B></A> January 2003 <I>Advances in 
+  Neural Information Processing Systems (NIPS)</I> 1025-1032 15 
+  <BR>Classification with partially labeled data requires using a large number 
+  of unlabeled examples (or an estimated marginal P(x)), to further constrain 
+  the conditional P(y|x) beyond a few available labeled examples. We formulate a 
+  regularization approach to linking the marginal and the conditional in a 
+  general way. The regularization penalty measures the information that is 
+  implied about the labels over covering regions. No parametric assumptions are 
+  required and the approach remains tractable even for continuous marginal 
+  densities P(x). We develop algorithms for solving the regularization problem 
+  for finite covers, establish a limiting differential equation, and exemplify 
+  the behavior of the new regularization approach in simple cases.<BR><BR>
+  <LI>Chen-Hsiang Yeang, Martin Szummer. <A 
+  href="papers/YeangSzummer-uai03.ps.gz"><B>Markov 
+  Random Walk Representations with Continuous Distributions</B></A> August 2003 
+  <I>Proc. Uncertainty in Artificial Intelligence, UAI</I> U. Kjærulff and C. 
+  Meek 600-607 <BR>Representations based on random walks can exploit discrete 
+  data distributions for clustering and classification. We extend such 
+  representations from discrete to continuous distributions. Transition 
+  probabilities are now calculated using a diffusion equation with a diffusion 
+  coefficient that varies inversely with the data density. We relate this 
+  diffusion equation to a path integral and derive the corresponding path 
+  probability measure. The framework is useful for incorporating continuous data 
+  densities and prior knowledge.<BR><BR>
+  <LI>Martin Szummer, Tommi Jaakkola. <A 
+  href="papers/SzummerJaakkola-nips01.pdf"><B>Partially 
+  labeled classification with Markov random walks</B></A> January 2002 
+  <I>Advances in Neural Information Processing Systems (NIPS)</I> 945-952 14 
+  <BR>To classify a large number of unlabeled examples we combine a limited 
+  number of labeled examples with a Markov random walk representation over the 
+  unlabeled examples. The random walk representation exploits any low 
+  dimensional structure in the data in a robust, probabilistic manner. We 
+  develop and compare several estimation criteria/algorithms suited to this 
+  representation. This includes in particular multi-way classification with an 
+  average margin criterion which permits a closed form solution. The time scale 
+  of the random walk regularizes the representation and can be set through a 
+  margin-based criterion favoring unambiguous classification. We also extend 
+  this basic regularization by adapting time scales for individual examples. We 
+  demonstrate the approach on synthetic examples and on text classification 
+  problems.<BR><BR>
+  <LI>Martin Szummer, Tommi Jaakkola. <A 
+  href="papers/SzummerJaakkola-nips00.pdf"><B>Kernel 
+  expansions with unlabeled examples</B></A> January 2001 <I>Advances in Neural 
+  Information Processing Systems (NIPS)</I> 626-632 13 <BR>Modern 
+  classification applications necessitate supplementing the few available 
+  labeled examples with unlabeled examples to improve classification 
+  performance. We present a new tractable algorithm for exploiting unlabeled 
+  examples in discriminative classification. This is achieved essentially by 
+  expanding the input vectors into longer feature vectors via both labeled and 
+  unlabeled examples. The resulting classification method can be interpreted as 
+  a discriminative kernel density estimate and is readily trained via the EM 
+  algorithm, which in this case is both discriminative and achieves the optimal 
+  solution. We provide, in addition, a purely discriminative formulation of the 
+  estimation problem by appealing to the maximum entropy framework. We 
+  demonstrate that the proposed approach requires very few labeled examples for 
+  high classification accuracy.<BR><BR></LI></UL>
+<H3 id=imageretrieval_DisplayTitle>Image retrieval and texture modeling</H3>
+<UL>
+  <LI>Wolfgang Sörgel, Sabine Girod, Martin Szummer, Bernd Girod. <A 
+  href="papers/SorgelEtal-aachen98.pdf"><B>Computer 
+  Aided Diagnosis of Bone Lesions in the Facial Skeleton</B></A> March 1998 
+  Aachen, Germany <I>Workshop Bildverarbeitung für die Medizin</I> <BR>We 
+  present a system for computer aided diagnosis of bone tumors in the facial 
+  skeleton. There are many different lesions with ra&shy;diographic 
+  manifestation in the jaws. Our system helps performing the differential 
+  diagnosis of these. The input is a digitized orthopantomograph (OPG) in which 
+  the user marks the position of the lesion with a single mouse click. An active 
+  contour model then automatically finds the boundaries of the lesion. 
+  Gray&shy;level histograms, MRSAR texture featu&shy;res and Gabor filter 
+  features are computed for the lesion region. These features are then combined 
+  and used to query a database containing expert-diagnosed reference cases. The 
+  result is a number of similar cases, with tumor position marked and with 
+  available expert annotations. We show good agreement between our results and 
+  differential diagnosis given by humans. The system is also a suitable tool for 
+  training and education.<BR><BR>
+  <LI>Martin Szummer, Rosalind W. Picard. <A 
+  href="papers/caivd98/SzummerPicard-caivd98.ps.gz"><B>Indoor-Outdoor 
+  Image Classification</B></A> January 1998 Bombay, India <I>IEEE International 
+  Workshop on Content-Based Access of Image and Video Databases, CAIVD</I> 
+  42-51 <BR>We show how high-level scene properties can be inferred from 
+  classification of low-level image features, specifically for the 
+  indoor-outdoor scene retrieval problem. We systematically studied the 
+  features: (1) histograms in the Ohta color space (2) multiresolution, 
+  simultaneous autoregressive model parameters (3) coefficients of a 
+  shift-invariant DCT. We demonstrate that performance is improved by computing 
+  features on subblocks, classifying these subblocks, and then combining these 
+  results in a way reminiscent of ``stacking.'' State of the art single-feature 
+  methods are shown to result in about 75-86% performance, while the new 
+  method results in 90.3% correct classification, when evaluated on a diverse 
+  database of over 1300 consumer images provided by Kodak.<BR><BR>
+  <LI>Rosalind W. Picard, Thomas P. Minka, Martin Szummer. <A 
+  href="papers/icip-96/PicardMinkaSzummer-icip96.pdf"><B>Modeling 
+  User Subjectivity In Image Libraries</B></A> September 1996 Lausanne, 
+  Switzerland <I>IEEE Intl Conf On Image Processing (ICIP)</I> 777-780 2 <BR>In 
+  addition to the problem of <i>which</i> image analysis models to use in digital 
+  libraries, e.g. wavelet, Wold, color histograms, is the problem of <i>how</i> to 
+  combine these models with their different strengths. Most present systems 
+  place the burden of combination on the user, e.g. the user specifies 50% 
+  texture features, 20% color features, etc. This is a problem since most users 
+  do not know how to best pick the settings for the given data and search 
+  problem. This paper addresses this problem, describing research in progress 
+  for a system that (1) automatically infers which combination of models best 
+  represents the data of interest to the user and (2) learns continuously during 
+  interaction with each user. In particular, these two components -- inference 
+  and learning -- provide a solution that adapts to the subjective and 
+  hard-to-predict behaviors frequently seen when people query or browse image 
+  libraries.<BR><BR>
+  <LI>Martin Szummer, Rosalind W. Picard. <A 
+  href="papers/icip-96/SzummerPicard-icip96.pdf"><B>Temporal 
+  Texture Modeling</B></A> September 1996 Lausanne, Switzerland <I>IEEE Intl 
+  Conf On Image Processing (ICIP)</I> 823-826 3 <BR>Temporal textures are 
+  textures with motion. Examples include wavy water, rising steam and fire. We 
+  model image sequences of temporal textures using the spatio-temporal 
+  autoregressive model (STAR). This model expresses each pixel as a linear 
+  combination of surrounding pixels lagged both in space and in time. The model 
+  provides a base for both recognition and synthesis. We show how the least 
+  squares method can accurately estimate model parameters for large, causal 
+  neighborhoods with more than 1000 parameters. Synthesis results show that the 
+  model can adequately capture the spatial and temporal characteristics of many 
+  temporal textures. A 95% recognition rate is achieved for a 135 element 
+  database with 15 texture classes.<BR><BR>
+  <LI>Martin Szummer. <A 
+  href="http://research.microsoft.com/~szummer/learning-browser/learning-browser.html"><B>An 
+  Image Browser that learns from User Interaction</B></A> December 1995 
+  <I></I><BR>Large image databases with millions of images are being built. It 
+  is very tedious to browse these databases; the user will only have time to see 
+  a small fraction of the images. Currently, there are very few tools that 
+  assist the user in finding the right selection of images. This project 
+  combines learning algorithms and machine vision techniques to create a 
+  flexible and powerful image browser. The user is presented with a selection of 
+  images. They select positive and negative examples of the type of images they 
+  want to see or avoid seeing. The browser analyzes the examples and chooses the 
+  best search metrics. It then uses these metrics to find images similar to the 
+  examples. The results form a hierarchy that the user can browse with a tree 
+  browser. Next, the user selects more positive and negative examples, and the 
+  process repeats.<BR><BR>
+  <LI>Martin Szummer. <A 
+  href="papers/Szummer-MEng-thesis.ps.gz"><B>Temporal 
+  Texture Modeling</B></A> September 1995 <I></I>346 MIT Media Lab Perceptual 
+  Computing <BR>Temporal textures are textures with motion. Examples include 
+  wavy water, rising steam and a crowd milling about. We model image sequences 
+  of temporal textures using the spatio-temporal autoregressive model (STAR). 
+  This model expresses each pixel as a linear combination of surrounding pixels 
+  lagged both in space and in time. The model provides a basis both for 
+  recognition and synthesis. We show how the least squares method can accurately 
+  estimate model parameters for large, causal neighborhoods with more than 1000 
+  parameters. Synthesis results show that the model can adequately capture the 
+  spatial and temporal characteristics of many temporal 
+textures.<BR><BR></LI></UL>
+<H3 id=NLP_DisplayTitle>Natural Language Processing</H3>
+<UL>
+  <LI>Wlodek Zadrozny, Marcin Szummer, Stanislaw Jarecki, David Johnson, Leora 
+  Morgenstern. <A 
+  href="papers/coling-94/ZadroznySzummerJarecki-coling94.ps.gz"><B>NL 
+  Understanding with a Grammar of Constructions</B></A> August 1994 Kyoto, Japan 
+  <I>Intl. Conf. on Computational Linguistics COLING</I> 1289-1293 15 <BR>We 
+  present an approach to natural language understanding based on a computable 
+  grammar of constructions. A "construction" consists of a set of features of 
+  form and a description of meaning in a context. A grammar is a set of 
+  constructions. This kind of grammar is the key element of Mincal, an 
+  implemented natural language, speech-enabled interface to an on-line calendar 
+  system. The system consists of a NL grammar, a parser, an on-line calendar, a 
+  domain knowledge base (about dates, times and meetings), an application 
+  knowledge base (about the calendar), a speech recognizer, a speech generator, 
+  and the interfaces between those modules. We claim that this architecture 
+  should work in general for spoken interfaces in small domains. In this paper 
+  we present two novel aspects of the architecture: (a) the use of 
+  constructions, integrating descriptions of form, meaning and context into one 
+  whole; and (b) the separation of domain knowledge from application knowledge. 
+  We describe the data structures for encoding constructions, the structure of 
+  the knowledge bases, and the interactions of the key modules of the 
+  system.<BR><BR></LI></UL></BODY></HTML>
